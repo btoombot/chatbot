@@ -33,7 +33,6 @@ def iniciate_fetching(output):
     fetching_thread.start()
     fetching_thread_list.append(fetching_thread)
     output.insert(END, "Now wait until thread will finish fetching IDs...")
-    output.insert(END, "I will let you now, when its done ;)")
 
 
 def get_page_ids(output):
